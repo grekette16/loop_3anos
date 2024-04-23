@@ -4,11 +4,11 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("qual a sua escola?");
+    var respostaTime = prompt("a senha é 123?");
 
     
-    if (respostaTime.toLowerCase() === "Emilio de menezes") {
-      alert("Isso mesmo! O emilio é o melhor colégio!");
+    if (respostaTime.toLowerCase() === "123") {
+      alert("Isso mesmo! a melhor senha!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
