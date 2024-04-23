@@ -4,14 +4,18 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual os melhor time?");
+    var respostaTime = prompt("qual a sua escola?");
 
     
-    if (respostaTime.toLowerCase() === "Athlético PR") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "Emilio de menezes") {
+      alert("Isso mesmo! O emilio é o melhor colégio!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
     }
   }
 }
+
+
+//Chamada da função para iniciar o processo
+verificarTime ();
